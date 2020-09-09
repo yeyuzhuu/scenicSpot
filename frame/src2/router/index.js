@@ -3,18 +3,11 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 
 // 引入Index
-import Index from "../views/Index.vue";
-import Tabbar from "../views/Tabbar.vue";
-import Me from "../views/Me.vue";
-import Search from "../views/Search.vue";
-
+import Index from "../views/index.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
-  {path:"/search",component:Search},
-  { path: "/me", component: Me },
-  { path: "/tabbar", component: Tabbar },
   {
     path: "/",
     // name: "Home",
